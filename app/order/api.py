@@ -8,7 +8,8 @@ from app.models import Order
 class OrderAPI(MethodView):
     """This class based view handles Order related methods"""
 
-    def get(self, order_id):
+    @classmethod
+    def get(cls, order_id):
         """Method for  get orders"""
         if order_id:
             order_id = uuid.UUID(order_id)
@@ -25,7 +26,8 @@ class OrderAPI(MethodView):
                 return make_response(jsonify(response)), 200
             return jsonify(orders), 200
 
-    def post(self):
+    @classmethod
+    def post(cls):
         '''Method for a post order'''
         data = request.json
         name = data["name"]
