@@ -1,14 +1,14 @@
 """This module handles OrderAPI class and its methods"""
 import uuid
 from flask.views import MethodView
-from flask import jsonify, request, abort, make_response
+from flask import jsonify, request, make_response
 from app.models import Order
 
 
 class OrderAPI(MethodView):
     """This class based view handles Order related methods"""
 
-    def get(self,order_id):
+    def get(self, order_id):
         """Method for  get orders"""
         if order_id:
             order_id = uuid.UUID(order_id)

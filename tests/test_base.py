@@ -1,6 +1,5 @@
 """ Tests module """
 import unittest
-from flask import json
 from app import create_app
 
 class TestBase(unittest.TestCase):

@@ -11,5 +11,4 @@ def create_app(configuration_name):
     from app.order.views import ORDER_APP
     # register_blueprint
     app.register_blueprint(ORDER_APP)
-   
     return app

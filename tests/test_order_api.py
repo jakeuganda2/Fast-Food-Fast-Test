@@ -1,9 +1,6 @@
-
-import unittest
 from flask import json
 from test_data import*
 from test_base import TestBase
-from app.models import Order
 
 
 class TestOrder(TestBase):

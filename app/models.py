@@ -12,8 +12,7 @@ class Order:
         self.order_id = order_id
         self.name = name
         self.price = price
-        self.order_date = order_date
-        
+        self.order_date = order_date 
 
     @classmethod
     def existing_order(cls, name, price, order_date):
