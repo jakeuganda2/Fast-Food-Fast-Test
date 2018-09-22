@@ -1,39 +1,40 @@
-post_order1 = {
-    "name": " Burger",
+test_order1 = {
+    "item_name": " Burger",
     "price": "25000",
-    "order_date": "2018-12-12"
+    "order_date": "2018-12-12",
+    "user_name": "Alex"
 }
 
-post_order2 = {
-    "name": "Sandwich",
+test_order2 = {
+    "item_name": "Sandwich",
     "price": "16000",
-    "order_date": "2018-12-12"
+    "order_date": "2018-12-12",
+    "user_name": "Alex"
 }
 
-post_order3 = {
-    "name": "Chicken",
+test_order3 = {
+    "item_name": "Chicken",
     "price": "30000",
-    "order_date": "2018-12-12"
+    "order_date": "2018-12-12",
+    "user_name": "Alex"
 }
-post_order4 = {
-    "name": "Chips",
+test_order4 = {
+    "item_name": "Chips",
     "price": "10000",
-    "order_date": "2018-12-02"
+    "order_date": "2018-12-02",
+    "user_name": "Alex"
 }
 
-invalid_order_date = {
-    "name": "Sausages",
-    "price": "5000",
-    "order_date": "12-12-2017"
-}
 past_order_date = {
-    "name": "Egg Roll",
+    "item_name": "Egg Roll",
     "price": "5000",
-    "order_date": "2017-12-12"
+    "order_date": "2017-12-12",
+    "user_name": "Alex"
 }
 
 duplicate_order = {
-    "name": "Chips",
+    "item_name": "Chips",
     "price": "10000",
-    "order_date": "2018-12-02"
+    "order_date": "2018-12-02",
+    "user_name": "Alex"
 }

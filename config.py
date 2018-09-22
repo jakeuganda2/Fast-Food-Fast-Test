@@ -7,7 +7,6 @@ class Config(object):
     SECRET = os.getenv('SECRET') or "secret"
 
 
-
 class DevelopmentConfiguration(Config):
     """Configurations for Development."""
     DEBUG = True

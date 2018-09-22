@@ -1,6 +1,6 @@
-""" Tests module """
 import unittest
 from app import create_app
+
 
 class TestBase(unittest.TestCase):
     """ Base class for all test classes """
